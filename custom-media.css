@@ -30,6 +30,12 @@
         text-align: left;
         margin-left: 10px;
     }
+    .p {
+        max-width: auto;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
   }
   
   @media (max-width: 960px) and (min-width: 480px) {
@@ -64,6 +70,12 @@
         text-align: left;
         margin-left: 10px;
     }
+    .p {
+        max-width: auto;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
   }
   
   @media screen and (min-width: 960px) {
@@ -106,6 +118,10 @@
             text-align: left;
             margin-left: 10px;
         }
-
+        .p {
+            max-width: 75%;
+            text-align: left;
+            margin-left: 10px;
+        }
 
 }
