@@ -38,6 +38,15 @@ html, body, .container {
 	margin: 2px;
 }
 
+.foto-perfil {
+    display: block; 
+    margin: auto; 
+    border-radius: 50%;
+    border: 3px solid #EAEFE9;;
+    width: 100px; 
+    height: 100px; 
+}
+
 .no-bullet li {
 	list-style-type: none;
   }
