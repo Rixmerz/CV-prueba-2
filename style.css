@@ -1,0 +1,52 @@
+.nombre {
+	grid-area: nombre;
+	background-color: #598392;
+	color: #EFF6E0;
+}
+
+.desarrollo { 
+	position: relative;
+	background-color: #124559;
+	grid-area: desarrollo; 
+	color: #EFF6E0;
+}
+
+.git { 
+	background-color: #EFF6E0;
+	grid-area: git; 
+	text-align: center;
+}
+
+.azul {
+	background-color: #598392;
+	grid-area: azul;
+}
+
+.nada1 { 
+	background-color: #EAEFE9;
+	grid-area: nada1;
+    color: #124559
+}
+
+.nada2 { 
+	background-color: #EAEFE9;
+	grid-area: nada2;
+}
+
+html, body, .container {
+	height: 100%;
+	margin: 2px;
+}
+
+.no-bullet li {
+	list-style-type: none;
+  }
+body {
+    background-color: #01161E
+  }
+
+
+h2 {
+	margin-left: 10px;
+}
+

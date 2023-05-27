@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+	.container {  
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  grid-template-rows: min-content;
+	  gap: 10px 10px;
+	  background-color: #01161E;
+	  border: 10px solid #01161E;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+		"nombre"
+		"nombre"
+		"desarrollo"
+		"desarrollo"
+		"desarrollo"
+		"nada1"
+		"git";
+	}
+  }
+  
+  @media (max-width: 960px) and (min-width: 480px) {
+	.container {  
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: min-content;
+	  gap: 10px 10px;
+	  background-color: #01161E;
+	  border: 10px solid #01161E;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+		"nombre desarrollo"
+		"nombre desarrollo"
+		"nombre desarrollo"
+        "nombre desarrollo"
+		"nada1 desarrollo"
+		"nada1 desarrollo"
+        "git desarrollo";
+	}
+
+  }
+  
+  @media screen and (min-width: 960px) {
+	.container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 0.5fr 0.5fr;
+	  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+	  gap: 10px 10px;
+	  background-color: #01161E;
+	  border: 10px solid #01161E;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+		"nombre desarrollo desarrollo desarrollo desarrollo"
+		"nombre desarrollo desarrollo desarrollo desarrollo"
+		"nada1 desarrollo desarrollo desarrollo desarrollo"
+		"azul git git git nada2";
+	}
+}
